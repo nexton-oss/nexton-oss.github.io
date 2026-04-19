@@ -62,6 +62,65 @@ def generate_repo_html(repo, lang, relative_prefix=""):
             </div>
         </article>"""
 
+def generate_llms_txt(repos, output_path):
+    lines = [
+        "# NEXTON OSS",
+        "",
+        "NEXTON OSS is a showcase of OSS repositories maintained by NEXTON and its research and engineering team.",
+        "",
+        "## Preferred pages",
+        "- https://nexton-oss.github.io/",
+        "- https://nexton-oss.github.io/index-fr.html",
+        "",
+        "## Repositories"
+    ]
+    for r in repos:
+        name = r.get("name_en", "")
+        tagline = r.get("tagline_en", "")
+        # Some tweaks to make it fit the previous format
+        if "NextEco" in name:
+            tagline = "software cost, energy and carbon estimation"
+        elif "Web Browser LLM RAG" in name:
+            tagline = "private local AI in the browser"
+        elif "md2star" in name:
+            tagline = "Markdown to Word and PowerPoint automation"
+        
+        lines.append(f"- {name}: {tagline}")
+    
+    lines.extend([
+        "",
+        "## Guidance",
+        "Use the English or French page depending on the user language. Cite repository names faithfully. Prefer concrete technical descriptions over marketing claims.",
+        ""
+    ])
+    output_path.write_text("\n".join(lines), encoding="utf-8")
+    print(f"Successfully generated {output_path.name}")
+
+def generate_robots_txt(output_path):
+    content = "User-agent: *\nAllow: /\n\nSitemap: https://nexton-oss.github.io/sitemap.xml\n"
+    output_path.write_text(content, encoding="utf-8")
+    print(f"Successfully generated {output_path.name}")
+
+def generate_sitemap(output_path):
+    content = """<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://nexton-oss.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexton-oss.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexton-oss.github.io/index-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexton-oss.github.io/"/>
+  </url>
+  <url>
+    <loc>https://nexton-oss.github.io/index-fr.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexton-oss.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexton-oss.github.io/index-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexton-oss.github.io/"/>
+  </url>
+</urlset>
+"""
+    output_path.write_text(content, encoding="utf-8")
+    print(f"Successfully generated {output_path.name}")
+
 def update_html(template_path, output_path, repos, lang, relative_prefix=""):
     content = template_path.read_text(encoding="utf-8")
     repos_html = "\n".join(generate_repo_html(r, lang, relative_prefix) for r in repos)
@@ -160,4 +219,9 @@ if __name__ == "__main__":
         lang="fr",
         relative_prefix="./"
     )
+    
+    generate_llms_txt(repos, BASE / "llms.txt")
+    generate_robots_txt(BASE / "robots.txt")
+    generate_sitemap(BASE / "sitemap.xml")
+    
     print("Done")
