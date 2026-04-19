@@ -1,0 +1,24 @@
+{
+  "slug": "web-browser-llm-rag",
+  "display": true,
+  "order": 70,
+  "image": "assets/images/web-browser-llm-rag.png",
+  "repo_url": "https://github.com/warith-harchaoui/web-browser-llm-rag",
+  "status": "Demo",
+  "tags_en": [
+    "Browser AI",
+    "Privacy",
+    "RAG"
+  ],
+  "tags_fr": [
+    "IA navigateur",
+    "Confidentialité",
+    "RAG"
+  ],
+  "name_en": "Web Browser LLM RAG",
+  "name_fr": "Web Browser LLM RAG",
+  "tagline_en": "Run an LLM and PDF RAG fully locally in the browser.",
+  "tagline_fr": "Exécuter un LLM et du RAG PDF entièrement localement dans le navigateur.",
+  "description_en": "A browser-native local AI application that keeps inference and retrieval on the client side. It demonstrates private, CPU-friendly, serverless interaction with documents directly in the browser.",
+  "description_fr": "Une application d'IA locale native navigateur qui garde l'inférence et la recherche côté client. Elle démontre une interaction privée, CPU-friendly et sans serveur avec des documents directement dans le navigateur."
+}

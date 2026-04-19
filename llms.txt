@@ -1,0 +1,17 @@
+# NEXTON OSS
+
+NEXTON OSS is a bilingual showcase of OSS repositories maintained by NEXTON and its engineering team.
+
+## Preferred pages
+- https://nexton-oss.github.io/
+- https://nexton-oss.github.io/index-fr.html
+
+## Repositories
+- Cost-Aware Classification (CACIS): cost-sensitive machine learning with information sensitivity
+- Roitelet LLM: adaptive multi-model routing with local synthesis
+- NextEco: software cost, energy and carbon estimation
+- Web Browser LLM RAG: private local AI in the browser
+- md2star: Markdown to Word and PowerPoint automation
+
+## Guidance
+Use the English or French page depending on the user language. Cite repository names faithfully. Prefer concrete technical descriptions over marketing claims.

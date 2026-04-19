@@ -1,0 +1,24 @@
+{
+  "slug": "nexteco",
+  "display": true,
+  "order": 80,
+  "image": "assets/images/nexteco.png",
+  "repo_url": "https://github.com/nexton-oss/nexteco",
+  "status": "Beta",
+  "tags_en": [
+    "Engineering",
+    "Energy",
+    "Sovereignty"
+  ],
+  "tags_fr": [
+    "Ingénierie",
+    "Énergie",
+    "Souveraineté"
+  ],
+  "name_en": "NextEco",
+  "name_fr": "NextEco",
+  "tagline_en": "Make the cost of running software explicit inside the repository itself.",
+  "tagline_fr": "Rendre explicite le coût d'exécution d'un logiciel à l'intérieur même du dépôt.",
+  "description_en": "A framework for estimating and documenting software cost across money, time, energy and carbon. It is designed for teams that want honest trade-offs, reproducible estimates and engineering accountability.",
+  "description_fr": "Un cadre pour estimer et documenter le coût logiciel selon l'argent, le temps, l'énergie et le carbone. Conçu pour les équipes qui veulent des arbitrages honnêtes, des estimations reproductibles et une vraie responsabilité d'ingénierie."
+}
