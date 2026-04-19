@@ -21,19 +21,19 @@
   "tagline_fr": "Écrire en Markdown, livrer en Word et PowerPoint.",
   "description_en": "A practical toolchain for turning Markdown into polished office deliverables. It reduces formatting friction and keeps technical writing close to the source while producing outputs that organizations actually use.",
   "description_fr": "Une chaîne d'outils pratique pour transformer du Markdown en livrables bureautiques soignés. Elle réduit la friction de mise en forme et garde l'écriture technique proche de la source tout en produisant les formats réellement utilisés par les organisations.",
-  "featured": true,
-  "homepage_badge_en": "Tooling",
-  "homepage_badge_fr": "Outillage",
-  "why_it_matters_en": "Technical writing loses value when it becomes painful to deliver in the formats companies actually use. md2star keeps the source of truth close to Markdown while still producing office-ready outputs.",
-  "why_it_matters_fr": "L'écriture technique perd de la valeur lorsqu'elle devient pénible à livrer dans les formats réellement utilisés par les organisations. md2star garde la source de vérité au plus près du Markdown tout en produisant des livrables bureautiques exploitables.",
+  "featured": false,
+  "homepage_badge_en": "Engineering tooling",
+  "homepage_badge_fr": "Outillage d'ingénierie",
+  "why_it_matters_en": "Turns technical writing into deliverables people actually use, without forcing teams to abandon Markdown as the source of truth.",
+  "why_it_matters_fr": "Transforme l'écriture technique en livrables réellement utilisés, sans abandonner Markdown comme source de vérité.",
   "proof_points_en": [
-    "Bridges Markdown and office deliverables without forcing teams to rewrite content.",
-    "Makes technical documentation easier to maintain and easier to ship.",
-    "Useful for consulting, internal knowledge and reproducible reporting workflows."
+    "Bridges technical workflows and office deliverables",
+    "Reduces formatting friction in consulting and engineering contexts",
+    "Keeps writing close to versionable source material"
   ],
   "proof_points_fr": [
-    "Relie le Markdown aux livrables bureautiques sans obliger les équipes à réécrire leur contenu.",
-    "Facilite la maintenance de la documentation technique et sa livraison.",
-    "Utile pour le conseil, la connaissance interne et les workflows de reporting reproductibles."
+    "Fait le lien entre workflows techniques et livrables bureautiques",
+    "Réduit la friction de mise en forme en contexte conseil et ingénierie",
+    "Garde les contenus proches de sources versionnables"
   ]
 }

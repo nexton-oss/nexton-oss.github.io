@@ -22,18 +22,18 @@
   "description_en": "A browser-native local AI application that keeps inference and retrieval on the client side. It demonstrates private, CPU-friendly, serverless interaction with documents directly in the browser.",
   "description_fr": "Une application d'IA locale native navigateur qui garde l'inférence et la recherche côté client. Elle démontre une interaction privée, CPU-friendly et sans serveur avec des documents directement dans le navigateur.",
   "featured": true,
-  "homepage_badge_en": "Demo",
-  "homepage_badge_fr": "Démo",
-  "why_it_matters_en": "Not every AI workflow needs a server, a GPU bill or a data transfer outside the browser. This project explores private, local-first interaction with documents directly on the client side.",
-  "why_it_matters_fr": "Tous les usages d'IA n'ont pas besoin d'un serveur, d'une facture GPU ou d'un transfert de données hors du navigateur. Ce projet explore une interaction privée et locale avec les documents directement côté client.",
+  "homepage_badge_en": "Featured project",
+  "homepage_badge_fr": "Projet phare",
+  "why_it_matters_en": "Shows that private local AI can run directly in the browser with no server dependency and a strong privacy posture.",
+  "why_it_matters_fr": "Montre qu'une IA locale et privée peut fonctionner directement dans le navigateur sans dépendance serveur.",
   "proof_points_en": [
-    "Runs local LLM inference and PDF RAG inside the browser.",
-    "Demonstrates privacy-preserving, CPU-friendly and serverless document interaction.",
-    "A strong signal for local-first AI and practical sovereignty."
+    "Client-side inference and retrieval",
+    "Private document interaction without centralizing sensitive files",
+    "A practical demonstration of local-first AI for developers and practitioners"
   ],
   "proof_points_fr": [
-    "Exécute de l'inférence LLM locale et du RAG PDF dans le navigateur.",
-    "Démontre une interaction documentaire respectueuse de la vie privée, CPU-friendly et sans serveur.",
-    "Un signal fort pour l'IA locale et une souveraineté pratique."
+    "Inférence et recherche côté client",
+    "Interaction privée avec les documents sans centralisation de fichiers sensibles",
+    "Une démonstration concrète de l'IA local-first pour les développeurs et praticiens"
   ]
 }
