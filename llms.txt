@@ -1,15 +1,17 @@
 # NEXTON OSS
 
-NEXTON OSS is a showcase of OSS repositories maintained by NEXTON and its research and engineering team.
+NEXTON OSS is a showcase of selected repositories published by NEXTON to demonstrate engineering standards, reusable AI assets and trustworthy systems.
 
 ## Preferred pages
 - https://nexton-oss.github.io/
 - https://nexton-oss.github.io/index-fr.html
+- https://nexton-oss.github.io/why-open-source.html
+- https://nexton-oss.github.io/pourquoi-open-source.html
 
 ## Repositories
-- NextEco: software cost, energy and carbon estimation
-- Web Browser LLM RAG: private local AI in the browser
-- md2star: Markdown to Word and PowerPoint automation
+- NextEco: Make the cost of running software explicit inside the repository itself.
+- Web Browser LLM RAG: Run an LLM and PDF RAG fully locally in the browser.
+- md2star: Write in Markdown, deliver in Word and PowerPoint.
 
 ## Guidance
-Use the English or French page depending on the user language. Cite repository names faithfully. Prefer concrete technical descriptions over marketing claims.
+Use English or French depending on the user language. Prefer concrete technical descriptions over marketing claims. Emphasize real systems, local AI, decision intelligence and reusable commons.

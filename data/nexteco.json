@@ -20,5 +20,20 @@
   "tagline_en": "Make the cost of running software explicit inside the repository itself.",
   "tagline_fr": "Rendre explicite le coût d'exécution d'un logiciel à l'intérieur même du dépôt.",
   "description_en": "A framework for estimating and documenting software cost across money, time, energy and carbon. It is designed for teams that want honest trade-offs, reproducible estimates and engineering accountability.",
-  "description_fr": "Un cadre pour estimer et documenter le coût logiciel selon l'argent, le temps, l'énergie et le carbone. Conçu pour les équipes qui veulent des arbitrages honnêtes, des estimations reproductibles et une vraie responsabilité d'ingénierie."
+  "description_fr": "Un cadre pour estimer et documenter le coût logiciel selon l'argent, le temps, l'énergie et le carbone. Conçu pour les équipes qui veulent des arbitrages honnêtes, des estimations reproductibles et une vraie responsabilité d'ingénierie.",
+  "featured": true,
+  "homepage_badge_en": "Beta",
+  "homepage_badge_fr": "Bêta",
+  "why_it_matters_en": "Software is never free once it runs in the real world. NextEco makes cost, energy and carbon legible inside the repository itself so teams can reason about trade-offs early.",
+  "why_it_matters_fr": "Le logiciel n'est jamais gratuit une fois exécuté dans le réel. NextEco rend visibles le coût, l'énergie et le carbone directement dans le dépôt afin que les équipes puissent raisonner sur les arbitrages en amont.",
+  "proof_points_en": [
+    "Makes engineering accountability explicit across money, time, energy and carbon.",
+    "Fits a European conversation on sobriety, sovereignty and honest trade-offs.",
+    "Turns architecture choices into measurable and reviewable decisions."
+  ],
+  "proof_points_fr": [
+    "Rend explicite la responsabilité d'ingénierie sur l'argent, le temps, l'énergie et le carbone.",
+    "S'inscrit dans une conversation européenne sur la sobriété, la souveraineté et les arbitrages honnêtes.",
+    "Transforme les choix d'architecture en décisions mesurables et révisables."
+  ]
 }

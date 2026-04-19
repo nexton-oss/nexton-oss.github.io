@@ -12,4 +12,16 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexton-oss.github.io/index-fr.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nexton-oss.github.io/"/>
   </url>
+  <url>
+    <loc>https://nexton-oss.github.io/why-open-source.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexton-oss.github.io/why-open-source.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexton-oss.github.io/pourquoi-open-source.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexton-oss.github.io/why-open-source.html"/>
+  </url>
+  <url>
+    <loc>https://nexton-oss.github.io/pourquoi-open-source.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexton-oss.github.io/why-open-source.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexton-oss.github.io/pourquoi-open-source.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexton-oss.github.io/why-open-source.html"/>
+  </url>
 </urlset>
