@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr" class="scroll-smooth">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>NEXTON OSS | IA souveraine, ingénierie utile et communs techniques</title>
-  <meta name="description" content="Découvrez les projets open source de NEXTON : IA locale, intelligence décisionnelle, ingénierie durable et actifs réutilisables issus de systèmes réels." />
+  <meta name="description"
+    content="Découvrez les projets open source de NEXTON : IA locale, intelligence décisionnelle, ingénierie durable et actifs réutilisables issus de systèmes réels." />
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
   <meta name="author" content="NEXTON" />
   <link rel="canonical" href="https://nexton-oss.github.io/index-fr.html" />
@@ -14,17 +16,19 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="NEXTON OSS" />
   <meta property="og:title" content="NEXTON OSS | IA souveraine, ingénierie utile et communs techniques" />
-  <meta property="og:description" content="Découvrez les projets open source de NEXTON : IA locale, intelligence décisionnelle, ingénierie durable et actifs réutilisables issus de systèmes réels." />
+  <meta property="og:description"
+    content="Découvrez les projets open source de NEXTON : IA locale, intelligence décisionnelle, ingénierie durable et actifs réutilisables issus de systèmes réels." />
   <meta property="og:url" content="https://nexton-oss.github.io/index-fr.html" />
   <meta property="og:locale" content="fr_FR" />
-  <meta property="og:image" content="https://nexton-oss.github.io/assets/meta/og-preview.png" />
+  <meta property="og:image" content="https://nexton-oss.github.io/assets/images/og-preview.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="Aperçu NEXTON OSS" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="NEXTON OSS | IA souveraine, ingénierie utile et communs techniques" />
-  <meta name="twitter:description" content="Découvrez les projets open source de NEXTON : IA locale, intelligence décisionnelle, ingénierie durable et actifs réutilisables issus de systèmes réels." />
-  <meta name="twitter:image" content="https://nexton-oss.github.io/assets/meta/og-preview.png" />
+  <meta name="twitter:description"
+    content="Découvrez les projets open source de NEXTON : IA locale, intelligence décisionnelle, ingénierie durable et actifs réutilisables issus de systèmes réels." />
+  <meta name="twitter:image" content="https://nexton-oss.github.io/assets/images/og-preview.png" />
   <meta name="theme-color" content="#ffffff" />
   <script type="application/ld+json">
 {
@@ -89,6 +93,18 @@
           {
             "@type": "ListItem",
             "position": 3,
+            "url": "https://github.com/warith-harchaoui/cost_aware_classification",
+            "name": "Classification sensible aux coûts avec sensibilité à l'information (CACIS)"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "url": "https://github.com/warith-harchaoui/roitelet-llm",
+            "name": "Roitelet LLM"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
             "url": "https://github.com/warith-harchaoui/md2star",
             "name": "md2star"
           }
@@ -102,150 +118,154 @@
   <link rel="apple-touch-icon" href="./assets/logos/nexton-square.png" />
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="bg-white text-black antialiased font-sans selection:bg-blue-100 selection:text-blue-900">
-  <header class="sticky top-0 z-50 bg-white/85 backdrop-blur-md border-b border-gray-200">
+
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
     <div class="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-3">
       <a href="https://nexton-group.com" class="flex items-center gap-2">
         <img src="./assets/logos/nexton-square.png" alt="NEXTON" class="h-5 w-5 object-contain" />
+        <!-- <span class="text-xs font-semibold tracking-tight text-black">NEXTON Open Source Software</span> -->
       </a>
-      <nav class="flex items-center gap-6 text-sm font-medium text-gray-500">
-        <a href="./pourquoi-open-source.html" class="hover:text-black transition-colors">Pourquoi l’open source ?</a>
-        <a href="https://github.com/nexton-oss" class="hover:opacity-70 transition-opacity flex items-center justify-center" aria-label="GitHub">
+      <nav class="flex items-center gap-6">
+        <a href="https://github.com/nexton-oss"
+          class="hover:opacity-70 transition-opacity flex items-center justify-center" aria-label="GitHub">
           <img src="./assets/logos/github.svg" alt="GitHub" class="h-6 w-6 object-contain" />
         </a>
-        <a href="./index.html" class="flex items-center justify-center h-8 w-8 rounded-full bg-gray-100 hover:bg-transparent transition-colors" aria-label="Version anglaise" title="English">🇬🇧</a>
+        <a href="./index.html"
+          class="flex items-center justify-center h-8 w-8 rounded-full bg-gray-100 hover:bg-transparent transition-colors"
+          aria-label="Version anglaise" title="English">🇬🇧</a>
       </nav>
     </div>
   </header>
 
-  <main class="mx-auto max-w-[1400px] px-6 py-16 lg:py-28">
-    <section class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-      <div class="flex flex-col items-start text-left">
+  <main class="mx-auto max-w-[1400px] px-6 py-16 lg:py-32">
+    <!-- Hero Section -->
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center border-none shadow-none">
+
+      <!-- Hero Left Side: Combined Logo -->
+      <div class="flex flex-col items-start text-left mx-0 w-full max-w-full">
         <h1 class="sr-only">NEXTON Open Source Software</h1>
-        <img src="./assets/logos/nexton-oss.png" alt="NEXTON Open Source Software" class="w-full max-w-[640px] h-auto object-contain object-left" />
+        <img src="./assets/logos/nexton-oss.png" alt="NEXTON Open Source Software"
+          class="w-full h-auto object-contain object-left" />
       </div>
-      <div class="text-left flex flex-col justify-center h-full space-y-6 lg:pl-8">
-        <p class="text-2xl lg:text-3xl font-semibold tracking-tight text-black">Nous construisons des systèmes d’IA réels, et nous ouvrons ce qui compte.</p>
-        <p class="text-lg leading-8 text-gray-600">Une sélection de dépôts conçus chez NEXTON autour de l’IA locale, de l’intelligence décisionnelle, de l’ingénierie durable et de l’outillage technique.</p>
-        <p class="text-lg leading-8 text-gray-600">Ces projets naissent de besoins d’ingénierie réels rencontrés avec nos clients et nos équipes. L’objectif est simple : publier un travail utile, techniquement solide, qui aide à construire de meilleurs logiciels et des systèmes plus fiables.</p>
-        <div class="flex flex-wrap gap-3 pt-2 text-sm text-gray-500">
-          <span class="inline-flex items-center rounded-full border border-gray-200 px-3 py-1">Besoins réels d’ingénierie</span>
-          <span class="inline-flex items-center rounded-full border border-gray-200 px-3 py-1">Publication sélective</span>
-          <span class="inline-flex items-center rounded-full border border-gray-200 px-3 py-1">Communs réutilisables</span>
-        </div>
+
+      <!-- Description right side -->
+      <div class="text-lg/8 font-medium text-gray-500 text-left flex flex-col justify-center h-full space-y-6 lg:pl-12">
+        <p>Une sélection de dépôts conçus chez NEXTON autour du Machine Learning, de l'IA générative et de l'IA agentique, de l’IA locale pour les développeurs et d'intelligence décisionnelle.
+          L’objectif est simple : publier un travail utile, techniquement solide, qui aide à construire de meilleurs logiciels et des systèmes plus fiables.<br><br>
+          Tous ces projets naissent de besoins d’ingénierie réels rencontrés avec nos clients et nos équipes internes.
+        </p>
       </div>
     </section>
 
-    <section class="mt-16 lg:mt-24">
-      <div class="flex items-end justify-between gap-6 mb-6">
-        <div>
-          <p class="text-sm font-semibold uppercase tracking-[0.18em] text-gray-500">À la une</p>
-          <h2 class="text-2xl lg:text-4xl font-semibold tracking-tight">Les projets qui expriment notre direction</h2>
-        </div>
-        <a href="./pourquoi-open-source.html" class="hidden lg:inline text-sm font-medium text-gray-500 hover:text-black transition-colors">Lire notre position</a>
-      </div>
+    <!-- Projects Section -->
+    <section class="mt-8 lg:mt-16 w-full">
       
-        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center border-t border-gray-200 pt-12 lg:pt-20 mt-12 first:mt-0">
-            <a href="https://github.com/nexton-oss/nexteco" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden flex items-center justify-center p-8 lg:p-14 aspect-square lg:aspect-auto h-auto lg:h-[460px] hover:opacity-95 transition-opacity">
+        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center border-t border-gray-200 pt-12 lg:pt-24 mt-12 mb-12 lg:mb-24 last:mb-0">
+            <a href="https://github.com/nexton-oss/nexteco" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden shadow-none flex items-center justify-center p-8 lg:p-16 aspect-square lg:aspect-auto h-auto lg:h-[500px] hover:opacity-90 transition-opacity">
                 <img src="./assets/images/nexteco.png" alt="NextEco" class="w-full h-full object-contain" />
             </a>
-            <div class="flex flex-col text-left py-2 lg:pl-6">
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-gray-500 mb-3">Projet phare</p>
-                <div class="flex flex-wrap gap-2 justify-start mb-5"><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">Ingénierie</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">Énergie</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">Souveraineté</span></div>
-                <h3 class="text-3xl lg:text-4xl font-semibold tracking-tight text-black mb-3">NextEco</h3>
-                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-5">Rendre explicite le coût d'exécution d'un logiciel à l'intérieur même du dépôt.</p>
-                <div class="text-lg leading-8 text-gray-600 mb-5"><p>Un cadre pour estimer et documenter le coût logiciel selon l'argent, le temps, l'énergie et le carbone. Conçu pour les équipes qui veulent des arbitrages honnêtes, des estimations reproductibles et une vraie responsabilité d'ingénierie.</p></div>
-                <p class="text-base leading-7 text-gray-700 mb-6">Rend explicites le coût, l'énergie et le carbone du logiciel au niveau du dépôt afin d'arbitrer honnêtement.</p>
-                <ul class="text-sm leading-7 text-gray-500 list-disc pl-5 space-y-1 mb-8"><li>Une responsabilité d'ingénierie plutôt que des promesses vagues sur la sobriété</li><li>Des estimations reproductibles sur le coût, le temps, l’énergie et le carbone</li><li>Un angle de souveraineté concret : comprendre ce que coûte réellement un logiciel</li></ul>
+            
+            <div class="flex flex-col text-left py-4 lg:pl-8">
+                <div class="flex flex-wrap gap-2 justify-start mb-6">
+                    <span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Ingénierie</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Énergie</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Souveraineté</span>
+                </div>
+                <h3 class="text-3xl lg:text-4xl font-bold text-black tracking-tight mb-4">NextEco</h3>
+                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-6">Rendre explicite le coût d'exécution d'un logiciel à l'intérieur même du dépôt.</p>
+                <div class="text-lg leading-relaxed text-gray-500 mb-8 space-y-4">
+                    <p>Un cadre pour estimer et documenter le coût logiciel selon l'argent, le temps, l'énergie et le carbone. Conçu pour les équipes qui veulent des arbitrages honnêtes, des estimations reproductibles et une vraie responsabilité d'ingénierie.</p>
+                </div>
                 <div class="mt-auto">
-                    <a href="https://github.com/nexton-oss/nexteco" class="inline-flex items-center text-base font-semibold text-blue-600 hover:text-blue-700 group">
+                    <a href="https://github.com/nexton-oss/nexteco" class="inline-flex items-center text-lg font-semibold text-blue-500 hover:text-blue-600 group">
                         Voir le dépôt <span aria-hidden="true" class="ml-1 transition-transform group-hover:translate-x-1">&rarr;</span>
                     </a>
                 </div>
             </div>
         </article>
 
-        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center border-t border-gray-200 pt-12 lg:pt-20 mt-12 first:mt-0">
-            <a href="https://github.com/warith-harchaoui/web-browser-llm-rag" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden flex items-center justify-center p-8 lg:p-14 aspect-square lg:aspect-auto h-auto lg:h-[460px] hover:opacity-95 transition-opacity">
+        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center border-t border-gray-200 pt-12 lg:pt-24 mt-12 mb-12 lg:mb-24 last:mb-0">
+            <a href="https://github.com/warith-harchaoui/web-browser-llm-rag" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden shadow-none flex items-center justify-center p-8 lg:p-16 aspect-square lg:aspect-auto h-auto lg:h-[500px] hover:opacity-90 transition-opacity">
                 <img src="./assets/images/web-browser-llm-rag.png" alt="Web Browser LLM RAG" class="w-full h-full object-contain" />
             </a>
-            <div class="flex flex-col text-left py-2 lg:pl-6">
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-gray-500 mb-3">Projet phare</p>
-                <div class="flex flex-wrap gap-2 justify-start mb-5"><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">IA navigateur</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">Confidentialité</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">RAG</span></div>
-                <h3 class="text-3xl lg:text-4xl font-semibold tracking-tight text-black mb-3">Web Browser LLM RAG</h3>
-                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-5">Exécuter un LLM et du RAG PDF entièrement localement dans le navigateur.</p>
-                <div class="text-lg leading-8 text-gray-600 mb-5"><p>Une application d'IA locale native navigateur qui garde l'inférence et la recherche côté client. Elle démontre une interaction privée, CPU-friendly et sans serveur avec des documents directement dans le navigateur.</p></div>
-                <p class="text-base leading-7 text-gray-700 mb-6">Montre qu'une IA locale et privée peut fonctionner directement dans le navigateur sans dépendance serveur.</p>
-                <ul class="text-sm leading-7 text-gray-500 list-disc pl-5 space-y-1 mb-8"><li>Inférence et recherche côté client</li><li>Interaction privée avec les documents sans centralisation de fichiers sensibles</li><li>Une démonstration concrète de l'IA local-first pour les développeurs et praticiens</li></ul>
+            
+            <div class="flex flex-col text-left py-4 lg:pl-8">
+                <div class="flex flex-wrap gap-2 justify-start mb-6">
+                    <span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">IA navigateur</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Confidentialité</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">RAG</span>
+                </div>
+                <h3 class="text-3xl lg:text-4xl font-bold text-black tracking-tight mb-4">Web Browser LLM RAG</h3>
+                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-6">Exécuter un LLM et du RAG PDF entièrement localement dans le navigateur.</p>
+                <div class="text-lg leading-relaxed text-gray-500 mb-8 space-y-4">
+                    <p>Une application d'IA locale native navigateur qui garde l'inférence et la recherche côté client. Elle démontre une interaction privée, CPU-friendly et sans serveur avec des documents directement dans le navigateur.</p>
+                </div>
                 <div class="mt-auto">
-                    <a href="https://github.com/warith-harchaoui/web-browser-llm-rag" class="inline-flex items-center text-base font-semibold text-blue-600 hover:text-blue-700 group">
+                    <a href="https://github.com/warith-harchaoui/web-browser-llm-rag" class="inline-flex items-center text-lg font-semibold text-blue-500 hover:text-blue-600 group">
                         Voir le dépôt <span aria-hidden="true" class="ml-1 transition-transform group-hover:translate-x-1">&rarr;</span>
                     </a>
                 </div>
             </div>
         </article>
-    </section>
 
-    <section class="mt-20 lg:mt-28 w-full">
-      <div class="mb-6">
-        <p class="text-sm font-semibold uppercase tracking-[0.18em] text-gray-500">Tous les dépôts</p>
-        <h2 class="text-2xl lg:text-4xl font-semibold tracking-tight">Des actifs d’ingénierie sélectionnés</h2>
-      </div>
-      
-        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center border-t border-gray-200 pt-12 lg:pt-20 mt-12 first:mt-0">
-            <a href="https://github.com/nexton-oss/nexteco" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden flex items-center justify-center p-8 lg:p-14 aspect-square lg:aspect-auto h-auto lg:h-[460px] hover:opacity-95 transition-opacity">
-                <img src="./assets/images/nexteco.png" alt="NextEco" class="w-full h-full object-contain" />
+        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center border-t border-gray-200 pt-12 lg:pt-24 mt-12 mb-12 lg:mb-24 last:mb-0">
+            <a href="https://github.com/warith-harchaoui/cost_aware_classification" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden shadow-none flex items-center justify-center p-8 lg:p-16 aspect-square lg:aspect-auto h-auto lg:h-[500px] hover:opacity-90 transition-opacity">
+                <img src="./assets/images/cost-aware-classification.png" alt="Classification sensible aux coûts avec sensibilité à l'information (CACIS)" class="w-full h-full object-contain" />
             </a>
-            <div class="flex flex-col text-left py-2 lg:pl-6">
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-gray-500 mb-3">Projet phare</p>
-                <div class="flex flex-wrap gap-2 justify-start mb-5"><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">Ingénierie</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">Énergie</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">Souveraineté</span></div>
-                <h3 class="text-3xl lg:text-4xl font-semibold tracking-tight text-black mb-3">NextEco</h3>
-                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-5">Rendre explicite le coût d'exécution d'un logiciel à l'intérieur même du dépôt.</p>
-                <div class="text-lg leading-8 text-gray-600 mb-5"><p>Un cadre pour estimer et documenter le coût logiciel selon l'argent, le temps, l'énergie et le carbone. Conçu pour les équipes qui veulent des arbitrages honnêtes, des estimations reproductibles et une vraie responsabilité d'ingénierie.</p></div>
-                <p class="text-base leading-7 text-gray-700 mb-6">Rend explicites le coût, l'énergie et le carbone du logiciel au niveau du dépôt afin d'arbitrer honnêtement.</p>
-                <ul class="text-sm leading-7 text-gray-500 list-disc pl-5 space-y-1 mb-8"><li>Une responsabilité d'ingénierie plutôt que des promesses vagues sur la sobriété</li><li>Des estimations reproductibles sur le coût, le temps, l’énergie et le carbone</li><li>Un angle de souveraineté concret : comprendre ce que coûte réellement un logiciel</li></ul>
+            
+            <div class="flex flex-col text-left py-4 lg:pl-8">
+                <div class="flex flex-wrap gap-2 justify-start mb-6">
+                    <span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Machine Learning</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Intelligence décisionnelle</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Recherche</span>
+                </div>
+                <h3 class="text-3xl lg:text-4xl font-bold text-black tracking-tight mb-4">Classification sensible aux coûts avec sensibilité à l'information (CACIS)</h3>
+                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-6">Du machine learning orienté métier pour les décisions où toutes les erreurs n'ont pas le même coût.</p>
+                <div class="text-lg leading-relaxed text-gray-500 mb-8 space-y-4">
+                    <p>Un dépôt appuyé par un article scientifique pour la classification sensible aux coûts avec coûts dépendant des exemples. Il aide les équipes à dépasser la simple accuracy pour optimiser l'impact métier, le regret et les conséquences opérationnelles.</p>
+                </div>
                 <div class="mt-auto">
-                    <a href="https://github.com/nexton-oss/nexteco" class="inline-flex items-center text-base font-semibold text-blue-600 hover:text-blue-700 group">
+                    <a href="https://github.com/warith-harchaoui/cost_aware_classification" class="inline-flex items-center text-lg font-semibold text-blue-500 hover:text-blue-600 group">
                         Voir le dépôt <span aria-hidden="true" class="ml-1 transition-transform group-hover:translate-x-1">&rarr;</span>
                     </a>
                 </div>
             </div>
         </article>
 
-        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center border-t border-gray-200 pt-12 lg:pt-20 mt-12 first:mt-0">
-            <a href="https://github.com/warith-harchaoui/web-browser-llm-rag" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden flex items-center justify-center p-8 lg:p-14 aspect-square lg:aspect-auto h-auto lg:h-[460px] hover:opacity-95 transition-opacity">
-                <img src="./assets/images/web-browser-llm-rag.png" alt="Web Browser LLM RAG" class="w-full h-full object-contain" />
+        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center border-t border-gray-200 pt-12 lg:pt-24 mt-12 mb-12 lg:mb-24 last:mb-0">
+            <a href="https://github.com/warith-harchaoui/roitelet-llm" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden shadow-none flex items-center justify-center p-8 lg:p-16 aspect-square lg:aspect-auto h-auto lg:h-[500px] hover:opacity-90 transition-opacity">
+                <img src="./assets/images/roitelet-llm.png" alt="Roitelet LLM" class="w-full h-full object-contain" />
             </a>
-            <div class="flex flex-col text-left py-2 lg:pl-6">
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-gray-500 mb-3">Projet phare</p>
-                <div class="flex flex-wrap gap-2 justify-start mb-5"><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">IA navigateur</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">Confidentialité</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">RAG</span></div>
-                <h3 class="text-3xl lg:text-4xl font-semibold tracking-tight text-black mb-3">Web Browser LLM RAG</h3>
-                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-5">Exécuter un LLM et du RAG PDF entièrement localement dans le navigateur.</p>
-                <div class="text-lg leading-8 text-gray-600 mb-5"><p>Une application d'IA locale native navigateur qui garde l'inférence et la recherche côté client. Elle démontre une interaction privée, CPU-friendly et sans serveur avec des documents directement dans le navigateur.</p></div>
-                <p class="text-base leading-7 text-gray-700 mb-6">Montre qu'une IA locale et privée peut fonctionner directement dans le navigateur sans dépendance serveur.</p>
-                <ul class="text-sm leading-7 text-gray-500 list-disc pl-5 space-y-1 mb-8"><li>Inférence et recherche côté client</li><li>Interaction privée avec les documents sans centralisation de fichiers sensibles</li><li>Une démonstration concrète de l'IA local-first pour les développeurs et praticiens</li></ul>
+            
+            <div class="flex flex-col text-left py-4 lg:pl-8">
+                <div class="flex flex-wrap gap-2 justify-start mb-6">
+                    <span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">LLM</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Routage</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Local-first</span>
+                </div>
+                <h3 class="text-3xl lg:text-4xl font-bold text-black tracking-tight mb-4">Roitelet LLM</h3>
+                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-6">Un routeur universel de LLM qui choisit les meilleurs modèles pour chaque requête.</p>
+                <div class="text-lg leading-relaxed text-gray-500 mb-8 space-y-4">
+                    <p>Roitelet sélectionne trois modèles candidats pour un prompt, les interroge en parallèle, puis synthétise la réponse finale localement. Il combine routage de modèles, résilience multi-fournisseurs, synthèse respectueuse de la confidentialité et observabilité.</p>
+                </div>
                 <div class="mt-auto">
-                    <a href="https://github.com/warith-harchaoui/web-browser-llm-rag" class="inline-flex items-center text-base font-semibold text-blue-600 hover:text-blue-700 group">
+                    <a href="https://github.com/warith-harchaoui/roitelet-llm" class="inline-flex items-center text-lg font-semibold text-blue-500 hover:text-blue-600 group">
                         Voir le dépôt <span aria-hidden="true" class="ml-1 transition-transform group-hover:translate-x-1">&rarr;</span>
                     </a>
                 </div>
             </div>
         </article>
 
-        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center border-t border-gray-200 pt-12 lg:pt-20 mt-12 first:mt-0">
-            <a href="https://github.com/warith-harchaoui/md2star" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden flex items-center justify-center p-8 lg:p-14 aspect-square lg:aspect-auto h-auto lg:h-[460px] hover:opacity-95 transition-opacity">
+        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center border-t border-gray-200 pt-12 lg:pt-24 mt-12 mb-12 lg:mb-24 last:mb-0">
+            <a href="https://github.com/warith-harchaoui/md2star" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden shadow-none flex items-center justify-center p-8 lg:p-16 aspect-square lg:aspect-auto h-auto lg:h-[500px] hover:opacity-90 transition-opacity">
                 <img src="./assets/images/md2star.png" alt="md2star" class="w-full h-full object-contain" />
             </a>
-            <div class="flex flex-col text-left py-2 lg:pl-6">
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-gray-500 mb-3">Outillage d'ingénierie</p>
-                <div class="flex flex-wrap gap-2 justify-start mb-5"><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">Docs</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">Markdown</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">Automatisation</span></div>
-                <h3 class="text-3xl lg:text-4xl font-semibold tracking-tight text-black mb-3">md2star</h3>
-                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-5">Écrire en Markdown, livrer en Word et PowerPoint.</p>
-                <div class="text-lg leading-8 text-gray-600 mb-5"><p>Une chaîne d'outils pratique pour transformer du Markdown en livrables bureautiques soignés. Elle réduit la friction de mise en forme et garde l'écriture technique proche de la source tout en produisant les formats réellement utilisés par les organisations.</p></div>
-                <p class="text-base leading-7 text-gray-700 mb-6">Transforme l'écriture technique en livrables réellement utilisés, sans abandonner Markdown comme source de vérité.</p>
-                <ul class="text-sm leading-7 text-gray-500 list-disc pl-5 space-y-1 mb-8"><li>Fait le lien entre workflows techniques et livrables bureautiques</li><li>Réduit la friction de mise en forme en contexte conseil et ingénierie</li><li>Garde les contenus proches de sources versionnables</li></ul>
+            
+            <div class="flex flex-col text-left py-4 lg:pl-8">
+                <div class="flex flex-wrap gap-2 justify-start mb-6">
+                    <span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Docs</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Markdown</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Automatisation</span>
+                </div>
+                <h3 class="text-3xl lg:text-4xl font-bold text-black tracking-tight mb-4">md2star</h3>
+                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-6">Écrire en Markdown, livrer en Word et PowerPoint.</p>
+                <div class="text-lg leading-relaxed text-gray-500 mb-8 space-y-4">
+                    <p>Une chaîne d'outils pratique pour transformer du Markdown en livrables bureautiques soignés. Elle réduit la friction de mise en forme et garde l'écriture technique proche de la source tout en produisant les formats réellement utilisés par les organisations.</p>
+                </div>
                 <div class="mt-auto">
-                    <a href="https://github.com/warith-harchaoui/md2star" class="inline-flex items-center text-base font-semibold text-blue-600 hover:text-blue-700 group">
+                    <a href="https://github.com/warith-harchaoui/md2star" class="inline-flex items-center text-lg font-semibold text-blue-500 hover:text-blue-600 group">
                         Voir le dépôt <span aria-hidden="true" class="ml-1 transition-transform group-hover:translate-x-1">&rarr;</span>
                     </a>
                 </div>
@@ -253,17 +273,24 @@
         </article>
     </section>
 
-    <section class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mt-20 lg:mt-32 pt-16 lg:pt-24 border-t border-gray-200">
-      <div class="flex flex-col items-start text-left w-full">
-        <img src="./assets/images/carrou.apng" alt="Standards d’ingénierie NEXTON" class="w-full rounded-2xl h-auto object-contain object-left" />
+    <!-- Footer/Philosophy Section -->
+    <section
+      class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center border-none shadow-none mt-16 lg:mt-32 pt-16 lg:pt-32 border-t border-gray-200">
+
+      <!-- Left Side: Carousel Image -->
+      <div class="flex flex-col items-start text-left mx-0 w-full max-w-full">
+        <img src="./assets/images/carrou.apng" alt="Standards d’ingénierie NEXTON"
+          class="w-full rounded-2xl h-auto object-contain object-left" />
       </div>
-      <div class="text-left flex flex-col justify-center h-full space-y-6 lg:pl-8">
-        <p class="text-sm font-semibold uppercase tracking-[0.18em] text-gray-500">Pourquoi nous publions</p>
-        <p class="text-lg leading-8 text-gray-600">NEXTON publie une sélection de ressources open source pour démontrer des standards d’ingénierie, partager des briques réutilisables et soutenir une approche responsable des systèmes d’IA.</p>
-        <p class="text-lg leading-8 text-gray-600">Nous préférons la confiance by design à la confiance par simple déclaration. En pratique, cela signifie exposer le moins possible de matière sensible tout en publiant les parties réellement réutilisables et techniquement instructives.</p>
-        <p class="text-lg leading-8 text-gray-600">Chaque dépôt est choisi avec soin, clairement porté et publié seulement après revue et usage lorsqu’il reflète les standards que NEXTON assume publiquement.</p>
+
+      <!-- Right Side: Philosophy Text -->
+      <div class="text-lg/8 font-medium text-gray-500 text-left flex flex-col justify-center h-full space-y-6 lg:pl-12">
+        <p>NEXTON publie une sélection de ressources open source pour démontrer des standards d’ingénierie, partager des briques réutilisables et soutenir une approche responsable des systèmes d’IA.</p>
+        <p>Nous préférons la confiance by design à la confiance par simple déclaration. En pratique, cela signifie exposer le moins possible de matière sensible tout en publiant les parties réellement réutilisables et techniquement instructives.</p>
+        <p>Chaque dépôt est choisi avec soin, clairement porté et publié seulement après revue et usage lorsqu’il reflète les standards que NEXTON assume publiquement.</p>
       </div>
     </section>
   </main>
 </body>
+
 </html>

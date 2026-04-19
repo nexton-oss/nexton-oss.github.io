@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import json
 import sys
 from pathlib import Path
@@ -43,39 +44,29 @@ def generate_repo_html(repo, lang, relative_prefix="./"):
     name_key = f"name_{lang}"
     tagline_key = f"tagline_{lang}"
     desc_key = f"description_{lang}"
-    badge_key = f"homepage_badge_{lang}"
-    matters_key = f"why_it_matters_{lang}"
-    proof_key = f"proof_points_{lang}"
     tags_html = "".join(
-        f'<span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500">{tag}</span>'
+        f'<span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">{tag}</span>'
         for tag in repo.get(tags_key, [])
     )
-    badge = repo.get(badge_key)
-    badge_html = f'<p class="text-xs font-semibold uppercase tracking-[0.18em] text-gray-500 mb-3">{badge}</p>' if badge else ""
-    why_it_matters = repo.get(matters_key, "")
-    why_html = f'<p class="text-base leading-7 text-gray-700 mb-6">{why_it_matters}</p>' if why_it_matters else ""
-    proof_points = repo.get(proof_key, [])
-    proof_html = ""
-    if proof_points:
-        proof_items = "".join(f"<li>{p}</li>" for p in proof_points)
-        proof_html = f'<ul class="text-sm leading-7 text-gray-500 list-disc pl-5 space-y-1 mb-8">{proof_items}</ul>'
     view_text = "View repository" if lang == "en" else "Voir le dépôt"
     image_src = f"{relative_prefix}{repo.get('image', '')}"
     return f"""
-        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center border-t border-gray-200 pt-12 lg:pt-20 mt-12 first:mt-0">
-            <a href="{repo.get('repo_url', '#')}" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden flex items-center justify-center p-8 lg:p-14 aspect-square lg:aspect-auto h-auto lg:h-[460px] hover:opacity-95 transition-opacity">
+        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center border-t border-gray-200 pt-12 lg:pt-24 mt-12 mb-12 lg:mb-24 last:mb-0">
+            <a href="{repo.get('repo_url', '#')}" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden shadow-none flex items-center justify-center p-8 lg:p-16 aspect-square lg:aspect-auto h-auto lg:h-[500px] hover:opacity-90 transition-opacity">
                 <img src="{image_src}" alt="{repo.get(name_key, '')}" class="w-full h-full object-contain" />
             </a>
-            <div class="flex flex-col text-left py-2 lg:pl-6">
-                {badge_html}
-                <div class="flex flex-wrap gap-2 justify-start mb-5">{tags_html}</div>
-                <h3 class="text-3xl lg:text-4xl font-semibold tracking-tight text-black mb-3">{repo.get(name_key, '')}</h3>
-                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-5">{repo.get(tagline_key, '')}</p>
-                <div class="text-lg leading-8 text-gray-600 mb-5"><p>{repo.get(desc_key, '')}</p></div>
-                {why_html}
-                {proof_html}
+            
+            <div class="flex flex-col text-left py-4 lg:pl-8">
+                <div class="flex flex-wrap gap-2 justify-start mb-6">
+                    {tags_html}
+                </div>
+                <h3 class="text-3xl lg:text-4xl font-bold text-black tracking-tight mb-4">{repo.get(name_key, '')}</h3>
+                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-6">{repo.get(tagline_key, '')}</p>
+                <div class="text-lg leading-relaxed text-gray-500 mb-8 space-y-4">
+                    <p>{repo.get(desc_key, '')}</p>
+                </div>
                 <div class="mt-auto">
-                    <a href="{repo.get('repo_url', '#')}" class="inline-flex items-center text-base font-semibold text-blue-600 hover:text-blue-700 group">
+                    <a href="{repo.get('repo_url', '#')}" class="inline-flex items-center text-lg font-semibold text-blue-500 hover:text-blue-600 group">
                         {view_text} <span aria-hidden="true" class="ml-1 transition-transform group-hover:translate-x-1">&rarr;</span>
                     </a>
                 </div>
@@ -145,11 +136,8 @@ def generate_json_ld(repos, lang):
 
 def update_html(template_path, output_path, repos, lang, relative_prefix="./"):
     content = template_path.read_text(encoding="utf-8")
-    featured = [r for r in repos if r.get("featured")]
     repos_html = "\n".join(generate_repo_html(r, lang, relative_prefix) for r in repos)
-    featured_html = "\n".join(generate_repo_html(r, lang, relative_prefix) for r in featured)
     new_content = content.replace("<!-- REPOS -->", repos_html)
-    new_content = new_content.replace("<!-- FEATURED_REPOS -->", featured_html)
     if "<!-- JSON_LD -->" in new_content:
         new_content = new_content.replace("<!-- JSON_LD -->", generate_json_ld(repos, lang))
     output_path.write_text(new_content, encoding="utf-8")

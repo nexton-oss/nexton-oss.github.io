@@ -30,90 +30,8 @@
     content="Explore the OSS work of NEXTON: decision intelligence, LLM routing, local AI, sustainable engineering and technical tooling." />
   <meta name="twitter:image" content="https://nexton-oss.github.io/assets/images/og-preview.png" />
   <meta name="theme-color" content="#ffffff" />
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://nexton-oss.github.io/#organization",
-      "name": "NEXTON",
-      "url": "https://nexton-oss.github.io",
-      "sameAs": [
-        "https://github.com/nexton-oss",
-        "https://nexton-group.com"
-      ],
-      "description": "Explore the OSS work of NEXTON: local AI, decision intelligence, sustainable engineering and reusable assets built from real-world systems."
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://nexton-oss.github.io/#website",
-      "url": "https://nexton-oss.github.io",
-      "name": "NEXTON OSS",
-      "description": "Explore the OSS work of NEXTON: local AI, decision intelligence, sustainable engineering and reusable assets built from real-world systems.",
-      "inLanguage": "en-GB",
-      "publisher": {
-        "@id": "https://nexton-oss.github.io/#organization"
-      }
-    },
-    {
-      "@type": "CollectionPage",
-      "@id": "https://nexton-oss.github.io/#webpage",
-      "url": "https://nexton-oss.github.io/",
-      "name": "NEXTON OSS | AI repositories, research and engineering assets",
-      "description": "Explore the OSS work of NEXTON: local AI, decision intelligence, sustainable engineering and reusable assets built from real-world systems.",
-      "isPartOf": {
-        "@id": "https://nexton-oss.github.io/#website"
-      },
-      "about": {
-        "@id": "https://nexton-oss.github.io/#organization"
-      },
-      "inLanguage": "en-GB",
-      "primaryImageOfPage": {
-        "@type": "ImageObject",
-        "url": "https://nexton-oss.github.io/assets/meta/og-preview.png",
-        "width": 1200,
-        "height": 630
-      },
-      "mainEntity": {
-        "@type": "ItemList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "url": "https://github.com/nexton-oss/nexteco",
-            "name": "NextEco"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "url": "https://github.com/warith-harchaoui/web-browser-llm-rag",
-            "name": "Web Browser LLM RAG"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "url": "https://github.com/warith-harchaoui/cost_aware_classification",
-            "name": "Cost-Aware Classification with Information Sensitivity (CACIS)"
-          },
-          {
-            "@type": "ListItem",
-            "position": 4,
-            "url": "https://github.com/warith-harchaoui/roitelet-llm",
-            "name": "Roitelet LLM"
-          },
-          {
-            "@type": "ListItem",
-            "position": 5,
-            "url": "https://github.com/warith-harchaoui/md2star",
-            "name": "md2star"
-          }
-        ]
-      }
-    }
-  ]
-}
-  </script>
+  <script
+    type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://nexton-oss.github.io/#organization", "name": "NEXTON", "url": "https://nexton-oss.github.io", "sameAs": ["https://github.com/nexton-oss", "https://github.com/nexton-group"], "description": "Explore the OSS work of NEXTON: decision intelligence, LLM routing, local AI, sustainable engineering and technical tooling."}, {"@type": "WebSite", "@id": "https://nexton-oss.github.io/#website", "url": "https://nexton-oss.github.io", "name": "NEXTON OSS", "description": "Explore the OSS work of NEXTON: decision intelligence, LLM routing, local AI, sustainable engineering and technical tooling.", "inLanguage": "en-GB", "publisher": {"@id": "https://nexton-oss.github.io/#organization"}}, {"@type": "CollectionPage", "@id": "https://nexton-oss.github.io/#webpage", "url": "https://nexton-oss.github.io/", "name": "NEXTON OSS | AI repositories, research and engineering assets", "description": "Explore the OSS work of NEXTON: decision intelligence, LLM routing, local AI, sustainable engineering and technical tooling.", "isPartOf": {"@id": "https://nexton-oss.github.io/#website"}, "about": {"@id": "https://nexton-oss.github.io/#organization"}, "inLanguage": "en-GB", "primaryImageOfPage": {"@type": "ImageObject", "url": "https://nexton-oss.github.io/assets/images/og-preview.png", "width": 1200, "height": 630}, "mainEntity": {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://github.com/warith-harchaoui/cost_aware_classification", "name": "Cost-Aware Classification"}, {"@type": "ListItem", "position": 2, "url": "https://github.com/warith-harchaoui/roitelet-llm", "name": "Roitelet LLM"}, {"@type": "ListItem", "position": 3, "url": "https://github.com/warith-harchaoui/nexteco", "name": "NextEco"}, {"@type": "ListItem", "position": 4, "url": "https://github.com/warith-harchaoui/web-browser-llm-rag", "name": "Web Browser LLM RAG"}, {"@type": "ListItem", "position": 5, "url": "https://github.com/warith-harchaoui/md2star", "name": "md2star"}]}}]}</script>
   <link rel="icon" type="image/png" href="./assets/logos/favicon.png" />
   <link rel="apple-touch-icon" href="./assets/logos/nexton-square.png" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -165,50 +83,6 @@
     <section class="mt-8 lg:mt-16 w-full">
       
         <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center border-t border-gray-200 pt-12 lg:pt-24 mt-12 mb-12 lg:mb-24 last:mb-0">
-            <a href="https://github.com/nexton-oss/nexteco" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden shadow-none flex items-center justify-center p-8 lg:p-16 aspect-square lg:aspect-auto h-auto lg:h-[500px] hover:opacity-90 transition-opacity">
-                <img src="./assets/images/nexteco.png" alt="NextEco" class="w-full h-full object-contain" />
-            </a>
-            
-            <div class="flex flex-col text-left py-4 lg:pl-8">
-                <div class="flex flex-wrap gap-2 justify-start mb-6">
-                    <span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Engineering</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Energy</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Sovereignty</span>
-                </div>
-                <h3 class="text-3xl lg:text-4xl font-bold text-black tracking-tight mb-4">NextEco</h3>
-                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-6">Make the cost of running software explicit inside the repository itself.</p>
-                <div class="text-lg leading-relaxed text-gray-500 mb-8 space-y-4">
-                    <p>A framework for estimating and documenting software cost across money, time, energy and carbon. It is designed for teams that want honest trade-offs, reproducible estimates and engineering accountability.</p>
-                </div>
-                <div class="mt-auto">
-                    <a href="https://github.com/nexton-oss/nexteco" class="inline-flex items-center text-lg font-semibold text-blue-500 hover:text-blue-600 group">
-                        View repository <span aria-hidden="true" class="ml-1 transition-transform group-hover:translate-x-1">&rarr;</span>
-                    </a>
-                </div>
-            </div>
-        </article>
-
-        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center border-t border-gray-200 pt-12 lg:pt-24 mt-12 mb-12 lg:mb-24 last:mb-0">
-            <a href="https://github.com/warith-harchaoui/web-browser-llm-rag" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden shadow-none flex items-center justify-center p-8 lg:p-16 aspect-square lg:aspect-auto h-auto lg:h-[500px] hover:opacity-90 transition-opacity">
-                <img src="./assets/images/web-browser-llm-rag.png" alt="Web Browser LLM RAG" class="w-full h-full object-contain" />
-            </a>
-            
-            <div class="flex flex-col text-left py-4 lg:pl-8">
-                <div class="flex flex-wrap gap-2 justify-start mb-6">
-                    <span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Browser AI</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Privacy</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">RAG</span>
-                </div>
-                <h3 class="text-3xl lg:text-4xl font-bold text-black tracking-tight mb-4">Web Browser LLM RAG</h3>
-                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-6">Run an LLM and PDF RAG fully locally in the browser.</p>
-                <div class="text-lg leading-relaxed text-gray-500 mb-8 space-y-4">
-                    <p>A browser-native local AI application that keeps inference and retrieval on the client side. It demonstrates private, CPU-friendly, serverless interaction with documents directly in the browser.</p>
-                </div>
-                <div class="mt-auto">
-                    <a href="https://github.com/warith-harchaoui/web-browser-llm-rag" class="inline-flex items-center text-lg font-semibold text-blue-500 hover:text-blue-600 group">
-                        View repository <span aria-hidden="true" class="ml-1 transition-transform group-hover:translate-x-1">&rarr;</span>
-                    </a>
-                </div>
-            </div>
-        </article>
-
-        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center border-t border-gray-200 pt-12 lg:pt-24 mt-12 mb-12 lg:mb-24 last:mb-0">
             <a href="https://github.com/warith-harchaoui/cost_aware_classification" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden shadow-none flex items-center justify-center p-8 lg:p-16 aspect-square lg:aspect-auto h-auto lg:h-[500px] hover:opacity-90 transition-opacity">
                 <img src="./assets/images/cost-aware-classification.png" alt="Cost-Aware Classification with Information Sensitivity (CACIS)" class="w-full h-full object-contain" />
             </a>
@@ -246,6 +120,50 @@
                 </div>
                 <div class="mt-auto">
                     <a href="https://github.com/warith-harchaoui/roitelet-llm" class="inline-flex items-center text-lg font-semibold text-blue-500 hover:text-blue-600 group">
+                        View repository <span aria-hidden="true" class="ml-1 transition-transform group-hover:translate-x-1">&rarr;</span>
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center border-t border-gray-200 pt-12 lg:pt-24 mt-12 mb-12 lg:mb-24 last:mb-0">
+            <a href="https://github.com/warith-harchaoui/nexteco" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden shadow-none flex items-center justify-center p-8 lg:p-16 aspect-square lg:aspect-auto h-auto lg:h-[500px] hover:opacity-90 transition-opacity">
+                <img src="./assets/images/nexteco.png" alt="NextEco" class="w-full h-full object-contain" />
+            </a>
+            
+            <div class="flex flex-col text-left py-4 lg:pl-8">
+                <div class="flex flex-wrap gap-2 justify-start mb-6">
+                    <span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Engineering</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Energy</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Sovereignty</span>
+                </div>
+                <h3 class="text-3xl lg:text-4xl font-bold text-black tracking-tight mb-4">NextEco</h3>
+                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-6">Make the cost of running software explicit inside the repository itself.</p>
+                <div class="text-lg leading-relaxed text-gray-500 mb-8 space-y-4">
+                    <p>A framework for estimating and documenting software cost across money, time, energy and carbon. It is designed for teams that want honest trade-offs, reproducible estimates and engineering accountability.</p>
+                </div>
+                <div class="mt-auto">
+                    <a href="https://github.com/warith-harchaoui/nexteco" class="inline-flex items-center text-lg font-semibold text-blue-500 hover:text-blue-600 group">
+                        View repository <span aria-hidden="true" class="ml-1 transition-transform group-hover:translate-x-1">&rarr;</span>
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center border-t border-gray-200 pt-12 lg:pt-24 mt-12 mb-12 lg:mb-24 last:mb-0">
+            <a href="https://github.com/warith-harchaoui/web-browser-llm-rag" class="w-full bg-[#f5f5f7] rounded-2xl overflow-hidden shadow-none flex items-center justify-center p-8 lg:p-16 aspect-square lg:aspect-auto h-auto lg:h-[500px] hover:opacity-90 transition-opacity">
+                <img src="./assets/images/web-browser-llm-rag.png" alt="Web Browser LLM RAG" class="w-full h-full object-contain" />
+            </a>
+            
+            <div class="flex flex-col text-left py-4 lg:pl-8">
+                <div class="flex flex-wrap gap-2 justify-start mb-6">
+                    <span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Browser AI</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">Privacy</span><span class="inline-flex items-center rounded-full bg-white border border-gray-200 px-3 py-1 text-xs font-semibold text-gray-500 shadow-none">RAG</span>
+                </div>
+                <h3 class="text-3xl lg:text-4xl font-bold text-black tracking-tight mb-4">Web Browser LLM RAG</h3>
+                <p class="text-xl lg:text-2xl font-medium text-gray-500 mb-6">Run an LLM and PDF RAG fully locally in the browser.</p>
+                <div class="text-lg leading-relaxed text-gray-500 mb-8 space-y-4">
+                    <p>A browser-native local AI application that keeps inference and retrieval on the client side. It demonstrates private, CPU-friendly, serverless interaction with documents directly in the browser.</p>
+                </div>
+                <div class="mt-auto">
+                    <a href="https://github.com/warith-harchaoui/web-browser-llm-rag" class="inline-flex items-center text-lg font-semibold text-blue-500 hover:text-blue-600 group">
                         View repository <span aria-hidden="true" class="ml-1 transition-transform group-hover:translate-x-1">&rarr;</span>
                     </a>
                 </div>

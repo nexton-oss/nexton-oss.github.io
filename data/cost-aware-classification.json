@@ -1,0 +1,24 @@
+{
+  "slug": "cost-aware-classification",
+  "display": true,
+  "order": 100,
+  "image": "assets/images/cost-aware-classification.png",
+  "repo_url": "https://github.com/warith-harchaoui/cost_aware_classification",
+  "status": "Research",
+  "tags_en": [
+    "Machine Learning",
+    "Decision Intelligence",
+    "Research"
+  ],
+  "tags_fr": [
+    "Machine Learning",
+    "Intelligence décisionnelle",
+    "Recherche"
+  ],
+  "name_en": "Cost-Aware Classification with Information Sensitivity (CACIS)",
+  "name_fr": "Classification sensible aux coûts avec sensibilité à l'information (CACIS)",
+  "tagline_en": "Business-aware machine learning for decisions where all mistakes do not cost the same.",
+  "tagline_fr": "Du machine learning orienté métier pour les décisions où toutes les erreurs n'ont pas le même coût.",
+  "description_en": "A paper-backed repository for cost-sensitive classification with example-dependent costs. It helps teams move beyond raw accuracy and optimize for business impact, regret and operational consequences.",
+  "description_fr": "Un dépôt appuyé par un article scientifique pour la classification sensible aux coûts avec coûts dépendant des exemples. Il aide les équipes à dépasser la simple accuracy pour optimiser l'impact métier, le regret et les conséquences opérationnelles."
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "roitelet-llm",
+  "display": true,
+  "order": 90,
+  "image": "assets/images/roitelet-llm.png",
+  "repo_url": "https://github.com/warith-harchaoui/roitelet-llm",
+  "status": "Experimental",
+  "tags_en": [
+    "LLM",
+    "Routing",
+    "Local-first"
+  ],
+  "tags_fr": [
+    "LLM",
+    "Routage",
+    "Local-first"
+  ],
+  "name_en": "Roitelet LLM",
+  "name_fr": "Roitelet LLM",
+  "tagline_en": "A universal LLM router that chooses the best models for each query.",
+  "tagline_fr": "Un routeur universel de LLM qui choisit les meilleurs modèles pour chaque requête.",
+  "description_en": "Roitelet selects three candidate models for a prompt, queries them in parallel and synthesizes the final answer locally. It combines model routing, vendor resilience, privacy-aware synthesis and observability.",
+  "description_fr": "Roitelet sélectionne trois modèles candidats pour un prompt, les interroge en parallèle, puis synthétise la réponse finale localement. Il combine routage de modèles, résilience multi-fournisseurs, synthèse respectueuse de la confidentialité et observabilité."
+}

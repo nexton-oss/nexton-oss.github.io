@@ -11,6 +11,8 @@ NEXTON OSS publishes selected open-source repositories that reflect engineering 
 ## Repositories
 - NextEco: Make the cost of running software explicit inside the repository itself.
 - Web Browser LLM RAG: Run an LLM and PDF RAG fully locally in the browser.
+- Cost-Aware Classification with Information Sensitivity (CACIS): Business-aware machine learning for decisions where all mistakes do not cost the same.
+- Roitelet LLM: A universal LLM router that chooses the best models for each query.
 - md2star: Write in Markdown, deliver in Word and PowerPoint.
 
 ## Guidance
